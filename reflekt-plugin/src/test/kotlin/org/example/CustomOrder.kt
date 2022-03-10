@@ -20,6 +20,9 @@ class CustomOrder : MethodOrderer {
     }
 
     private val config = listOf(
-        "scriptWithProperties", "scriptWithImports", "scriptWithExtendedClasspath", "simpleEval"
+        "simpleEval",
+        "scriptWithExtendedClasspath",
+        "scriptWithImports",
+        "scriptWithProperties",
     )
 }
